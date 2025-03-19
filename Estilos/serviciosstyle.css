@@ -1,0 +1,108 @@
+/* Estilos responsivos para pantallas con un ancho máximo de 831px */
+@media screen and (max-width: 831px) {
+
+    /* El contenedor ocupa el ancho completo en pantallas pequeñas */
+    .contenedor {
+        width: 100%;
+    }
+
+    /* El menú de navegación se expande en altura y se le asigna un color de fondo */
+    nav {
+        width: 100%;
+        height: 280px;
+        background-color: rgb(248, 205, 156); /* Color pastel claro */
+    }
+
+    /* Espaciado superior en la lista del menú para mejorar la apariencia */
+    nav ul {
+        padding-top: 10px;
+    }
+}
+
+/* Estilos generales del cuerpo del sitio */
+body {
+    background-color: #121212; /* Fondo oscuro para una apariencia elegante */
+    color: #f5f5f5; /* Texto en color claro para buen contraste */
+    font-family: Arial, sans-serif; /* Fuente sencilla y legible */
+}
+
+/* Contenedor del video de fondo */
+.video-container {
+    position: relative; /* Permite que los elementos internos se posicionen con respecto a este contenedor */
+    height: 100vh; /* Ocupa el alto completo de la pantalla */
+    overflow: hidden; /* Oculta cualquier parte del video que sobresalga */
+}
+
+/* Estilo del video para centrarlo y cubrir toda el área del contenedor */
+.video-container video {
+    position: absolute; /* Se posiciona sobre el contenedor */
+    top: 50%; /* Centrado vertical */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, -50%); /* Centra el video en ambas direcciones */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* El video se escala para cubrir toda el área sin distorsión */
+}
+
+/* Capa semitransparente que oscurece el video de fondo */
+.video-overlay {
+    position: absolute; /* Se coloca sobre el video */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Capa oscura translúcida para mejorar la visibilidad del texto */
+    display: flex; /* Permite centrar el contenido */
+    align-items: center; /* Centrado vertical del texto */
+    justify-content: center; /* Centrado horizontal del texto */
+}
+
+/* Estilo del título dentro de la superposición */
+.video-overlay h1 {
+    font-size: 4rem; /* Tamaño grande para destacar */
+    font-weight: bold; /* Texto en negrilla */
+    margin-top: 350px; /* Espacio superior para separar del borde */
+}
+
+/* Sección con espaciado interno para contenido adicional */
+.section {
+    padding: 60px 20px;
+}
+
+
+footer .row {
+    width: 100%; /* Asegura que las columnas ocupen el ancho completo del footer */
+}
+
+/* Estilos generales para las columnas del footer */
+footer .col-md-4 {
+    padding-top: 10px; /* Espacio superior uniforme en todas las columnas */
+}
+
+
+/* Contenedor de íconos con diseño flexible */
+.icon-container {
+    display: flex; /* Diseño flexible para organizar los íconos en fila */
+    gap: 15px; /* Espacio entre los íconos */
+    justify-content: center; /* Centrado horizontal de los íconos */
+}
+
+/* Estilo individual para cada ícono */
+.icon-box {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    display: inline-block; /* Ajuste automático al tamaño del contenido */
+    transition: background-color 0.3s ease; /* Efecto suave en el cambio de color */
+}
+
+/* Efecto visual al pasar el mouse sobre los íconos */
+.icon-box:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tamaño uniforme para las imágenes de los íconos */
+.icon-box img {
+    width: 30px;
+    height: 30px;
+}

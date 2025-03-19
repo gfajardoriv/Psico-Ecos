@@ -1,0 +1,151 @@
+body {
+    font-family: "EB Garamond", serif;
+    /* FUENTE */
+    font-optical-sizing: auto;
+    max-width: 900px;
+    /* ANCHO MAXIMO */
+    margin: 0 auto;
+    /* MARGEN */
+    background: rgb(248, 205, 156);
+
+}
+
+nav {
+    width: 100%;
+    height: 160px;
+    background: rgb(248, 205, 156);
+    padding: 1em;
+    text-align: center;
+}
+
+/* Escalera para la lista desordenada, hacer las cajas del nav */
+/*  alt+shif +f para organizar codigo */
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;/* ARRIBA ABAJO- IZQUIERDA DERECHA */
+}
+/* img {
+    margin-top: 200px;
+} */
+/* CUANDO ESTE SOBRE UN ELEMENTO, SUCEDA ALGO */
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* CLASES - CONJUNTO DE PROPIEDADES CON NOMBRE, HAY QUE LLAMARLO NO SE PUEDE USAR SIMBOLOS ESPECIALES */
+.img-logo {
+    width: 180px;
+    height: 180px;
+    padding: 20px;/* RELLENO SUPERIOR CAJAS */
+    border-radius: 50%;
+    margin-top: 20px;
+}
+nav ul {
+    display: inline-flex;
+    position: relative; 
+    top: -80px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/* MODIFICAR TEXTOS E IMAGENES*/
+
+h2, figure, ul{
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+
+/* MODIFICAR SECCIONES */
+.seccion1{
+    background-color: rgb(248, 205, 156);
+}
+.video{
+    width: 50%;
+    height: 280px;
+    padding: 8px;
+}
+
+.texto{
+    width: 40%;
+    padding: 8px;
+    vertical-align: top;
+}
+
+article{
+    padding: 30px;
+    background-color:rgb(248, 205, 156);
+}
+
+article h2{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.texto,.video{
+    display: inline-block;
+}
+
+/* ESTILOS AL BOTON */
+.boton{
+    text-align: center;/* ALINEAR TEXTO */
+    background-color: #f0efee;
+    padding: 10px;
+}
+.boton a{
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+.boton:hover{
+    background: rgb(248, 205, 156);
+}
+
+/* ARTICLES */
+
+section{
+    background-color: rgb(248, 205, 156);
+    padding: 15px;
+    text-align: center;
+}
+
+section h2{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.img-art{
+    max-width: 100%;
+}/* IMAGENES DE ARTICULOS */
+
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(248, 205, 156);
+    color : rgb(0, 0, 0);
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}/* PIE DE PAGINA */
+
+footer div a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer div a img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}

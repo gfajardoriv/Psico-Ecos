@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <title>Psico Ecos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Estilos/serviciosstyle.css">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./Imagenes/Asset 2.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Psico-Ecos
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Enfoques
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Gestalt</a></li>
+                            <li><a class="dropdown-item" href="#">Ecología</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Meditación</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"> Experiencias </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- VIDEO INICIAL -->
+
+    <section>
+
+        <div class="video-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <video autoplay loop muted>
+                        <source src="./Videos/videofondo.mp4" type="video/mp4">
+                        Tu navegador no soporta videos HTML5.
+                    </video>
+                    <div class="video-overlay">
+                        <h1>Servicios</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROCESO TERAPEUTICO -->
+    <section>
+        <div class="container section">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Proceso Psicoterapeutico</h2>
+                    <p>La terapia Gestalt se enfoca en el "aquí y ahora" para que las personas tomen conciencia de sus
+                        emociones y patrones de comportamiento.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Imagenes/Fondo.webp" class="img-fluid" alt="Terapia Gestalt">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PAQUETES DE CONSULTAS -->
+
+    <section>
+        <div class="container section">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Paquetes</h2>
+                    <ul>
+                        <li>Consulta individual - $120,000 COP.</li>
+                        <li>Paquete de 5 sesiones - $550,000 COP</li>
+                        <li>Paquete de 10 sesiones - $900,000 COP</li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-6">
+                    <h2> Términos y Condiciones</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut corporis rerum dolorum
+                        molestiae veniam illum consequuntur non. Eum non mollitia temporibus praesentium aut recusandae,
+                        repellat soluta suscipit corporis! Reiciendis!</p>
+                    <!-- Botón para descargar el archivo -->
+                    <a href="archivos/terminos-y-condiciones.pdf" download="Terminos_y_Condiciones.pdf">
+                        <button class="btn btn-success">Descargar Términos y Condiciones</button>
+                    </a>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <div class="container section">
+        <h2>Agenda una cita</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark bg-gradient text-white text-center py-3"> <!-- Fondo oscuro con degradado, texto blanco y centrado -->
+    
+        <div class="container-fluid"> <!-- Utiliza el ancho completo de la pantalla -->
+          <div class="row"> <!-- Fila para organizar las columnas -->
+      
+            <!-- Primera columna: Texto alineado a la izquierda -->
+            <div class="col-md-4 text-start ps-3"> <!-- col-md-4: Ocupa 4 de las 12 columnas disponibles en pantallas medianas en adelante -->
+                <address>DERECHOS RESERVADOS </address> <!-- Etiqueta <address> para información de contacto o derechos -->
+            </div>
+      
+            <!-- Segunda columna: Texto e íconos centrados -->
+            <div class="col-md-4 text-center"> <!-- Texto e íconos centrados -->
+              <div class="f-content">
+                <h3>Contacto</h3>
+                <div class="icon-container">
+                    <a href="#" class="icon-box"><img src="./Imagenes/Whatsapp.svg" alt="whatsapp"></a>
+                    <a href="#" class="icon-box"><img src="./Imagenes/Instagram.svg" alt="instagram"></a>
+                    <a href="#" class="icon-box"><img src="./Imagenes/Linkedin.svg" alt="linkedin"></a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Tercera columna: Texto alineado a la derecha -->
+            <div class="col-md-4 text-end pe-3"> <!-- Texto alineado a la derecha con padding derecho -->
+              <div class="f-content">
+                <h3>Ubicación</h3>
+                <p> Carrera 21 # 80 -86 </p> <!-- Dirección física -->
+                <p> Bogotá, Colombia </p> <!-- Ciudad y país -->
+              </div>
+            </div>
+      
+          </div> <!-- Fin de la fila -->
+        </div> <!-- Fin del contenedor -->
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
