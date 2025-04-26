@@ -10,6 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./Estilos/serviciosstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet"><!-- Fuentes -->
 </head>
 
 <body>
@@ -45,7 +49,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Meditación</a></li>
+                            <li><a class="dropdown-item" href="./Valores.html">Valores</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -85,12 +89,21 @@
         <div class="container section">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Proceso Psicoterapeutico</h2>
-                    <p>La terapia Gestalt se enfoca en el "aquí y ahora" para que las personas tomen conciencia de sus
-                        emociones y patrones de comportamiento.</p>
+                    <h2>Proceso Psicoterapéutico</h2>
+                    <p>Iniciar un proceso de psicoterapia es abrir un espacio seguro para explorar lo que se encuentra debajo de la superficie de nuestra vida cotidiana. Es un lugar donde podemos hablar libremente, ser escuchados sin juicios y observarnos en detalle para comprender las raíces psicoemocionales profundas de nuestros conflictos.
+
+                        La psicoterapia Gestalt invita a volver a la tierra, reconocer nuestras experiencias y sentimientos con honestidad, y permitirnos un proceso de transformación genuino. Todos merecemos florecer en la vida, y este espacio está diseñado para facilitar ese camino.
+                        
+                        Durante el proceso, se exploran las causas profundas de nuestros comportamientos y se abre la posibilidad de redescubrir nuestra autenticidad. Atrevernos a ser, vivir y descubrirnos nos permite sostener hábitos y decisiones importantes para nuestro bienestar.
+                        
+                        Este espacio también es una oportunidad para atender conflictos y asuntos inconclusos que afectan nuestro presente. A través de una mirada compasiva y consciente, podemos comprender lo que nos ocurre y encontrar caminos para resolverlo desde un lugar de transformación interior.
+                        
+                        La psicoterapia Gestalt no solo se enfoca en resolver problemas, sino en cultivar una vida más plena, consciente y conectada con quienes somos realmente.
+                        
+                        .</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="./Imagenes/Fondo.webp" class="img-fluid" alt="Terapia Gestalt">
+                    <img src="./Imagenes/1.png" class="fixed-img" alt="Terapia Gestalt">
                 </div>
             </div>
         </div>
@@ -114,11 +127,10 @@
 
                 <div class="col-md-6">
                     <h2> Términos y Condiciones</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut corporis rerum dolorum
-                        molestiae veniam illum consequuntur non. Eum non mollitia temporibus praesentium aut recusandae,
-                        repellat soluta suscipit corporis! Reiciendis!</p>
+                    <p>Consulta acá los términos y condiciones del proceso. Ten en cuenta que esto es sólo de caracter
+                        informativo y que dentro del proceso se estableceran otros acuerdos.</p>
                     <!-- Botón para descargar el archivo -->
-                    <a href="archivos/terminos-y-condiciones.pdf" download="Terminos_y_Condiciones.pdf">
+                    <a href="./Imagenes/Terminos y condiciones.pdf" download="Terminos_y_Condiciones.pdf">
                         <button class="btn btn-success">Descargar Términos y Condiciones</button>
                     </a>
 
@@ -132,61 +144,66 @@
     </section>
 
 
-
-    <div class="container section">
-        <h2>Agenda una cita</h2>
-        <form>
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" id="nombre">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Correo electrónico:</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje:</label>
-                <textarea class="form-control" id="mensaje" rows="4"></textarea>
-            </div>
-            <button type="submit" class="btn btn-success">Enviar</button>
-        </form>
-    </div>
+    <!-- Agendar Cita -->
+    <section id="consultas">
+        <div class="container section">
+            <h2>Agenda una cita</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </form>
+        </div>
+    </section>
 
     <!-- FOOTER -->
-    <footer class="bg-dark bg-gradient text-white text-center py-3"> <!-- Fondo oscuro con degradado, texto blanco y centrado -->
-    
+    <footer class="bg-dark bg-gradient text-white text-center py-3">
+        <!-- Fondo oscuro con degradado, texto blanco y centrado -->
+
         <div class="container-fluid"> <!-- Utiliza el ancho completo de la pantalla -->
-          <div class="row"> <!-- Fila para organizar las columnas -->
-      
-            <!-- Primera columna: Texto alineado a la izquierda -->
-            <div class="col-md-4 text-start ps-3"> <!-- col-md-4: Ocupa 4 de las 12 columnas disponibles en pantallas medianas en adelante -->
-                <address>DERECHOS RESERVADOS </address> <!-- Etiqueta <address> para información de contacto o derechos -->
-            </div>
-      
-            <!-- Segunda columna: Texto e íconos centrados -->
-            <div class="col-md-4 text-center"> <!-- Texto e íconos centrados -->
-              <div class="f-content">
-                <h3>Contacto</h3>
-                <div class="icon-container">
-                    <a href="#" class="icon-box"><img src="./Imagenes/Whatsapp.svg" alt="whatsapp"></a>
-                    <a href="#" class="icon-box"><img src="./Imagenes/Instagram.svg" alt="instagram"></a>
-                    <a href="#" class="icon-box"><img src="./Imagenes/Linkedin.svg" alt="linkedin"></a>
+            <div class="row"> <!-- Fila para organizar las columnas -->
+
+                <!-- Primera columna: Texto alineado a la izquierda -->
+                <div class="col-md-4 text-start ps-3">
+                    <!-- col-md-4: Ocupa 4 de las 12 columnas disponibles en pantallas medianas en adelante -->
+                    <address>DERECHOS RESERVADOS </address>
+                    <!-- Etiqueta <address> para información de contacto o derechos -->
                 </div>
-              </div>
-            </div>
-      
-            <!-- Tercera columna: Texto alineado a la derecha -->
-            <div class="col-md-4 text-end pe-3"> <!-- Texto alineado a la derecha con padding derecho -->
-              <div class="f-content">
-                <h3>Ubicación</h3>
-                <p> Carrera 21 # 80 -86 </p> <!-- Dirección física -->
-                <p> Bogotá, Colombia </p> <!-- Ciudad y país -->
-              </div>
-            </div>
-      
-          </div> <!-- Fin de la fila -->
+
+                <!-- Segunda columna: Texto e íconos centrados -->
+                <div class="col-md-4 text-center"> <!-- Texto e íconos centrados -->
+                    <div class="f-content">
+                        <h3>Contacto</h3>
+                        <div class="icon-container">
+                            <a href="#" class="icon-box"><img src="./Imagenes/Whatsapp.svg" alt="whatsapp"></a>
+                            <a href="#" class="icon-box"><img src="./Imagenes/Instagram.svg" alt="instagram"></a>
+                            <a href="#" class="icon-box"><img src="./Imagenes/Linkedin.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tercera columna: Texto alineado a la derecha -->
+                <div class="col-md-4 text-end pe-3"> <!-- Texto alineado a la derecha con padding derecho -->
+                    <div class="f-content">
+                        <h3>Ubicación</h3>
+                        <p> Carrera 21 # 80 -86 </p> <!-- Dirección física -->
+                        <p> Bogotá, Colombia </p> <!-- Ciudad y país -->
+                    </div>
+                </div>
+
+            </div> <!-- Fin de la fila -->
         </div> <!-- Fin del contenedor -->
-      </footer>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

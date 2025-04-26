@@ -14,18 +14,39 @@
         padding-top: 10px;
     }
     
-}
+}/* para los celulares */
 
 
 
 body{
-
-background-image: url(../Imagenes/Fondo.webp);
-/* background-repeat: no-repeat; */
-/* background-size: 100% 100%; */
+background-image: url(../Imagenes/Geology.jpg);
+background-repeat: no-repeat; 
+background-size: cover;
 background-attachment: fixed;
+font-family: "EB Garamond", serif;
+    /* FUENTE */
+    font-optical-sizing: auto;
+}
+/* Fondo del titulo */
+.seccion-transparente {
+    background-color: rgba(255, 255, 255, 0.7); /* Blanco con 70% de opacidad */
+    padding: 18px;
+    border-radius: 15px;      /* Bordes redondeados para un aspecto elegante */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra para resaltar la sección */
+}
+/* icono arriba a la izquiera */
+.icono{
+    width: 100px;
+    height: auto;
 }
 
+/* Fondo para el poema */
+.fondoblanco{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
 
 .container{
 
@@ -39,6 +60,7 @@ background-attachment: fixed;
     object-fit: cover;
     width: 100%;
 }
+
 
 .carousel-item img {
     width: 100%;        /* Se ajusta al ancho del carrusel */

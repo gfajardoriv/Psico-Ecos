@@ -27,53 +27,9 @@ body {
     /* FUENTE */
     font-optical-sizing: auto;
 }
-
-/* Contenedor del video de fondo */
-.video-container {
-    position: relative; /* Permite que los elementos internos se posicionen con respecto a este contenedor */
-    height: 100vh; /* Ocupa el alto completo de la pantalla */
-    overflow: hidden; /* Oculta cualquier parte del video que sobresalga */
-}
-
-/* Estilo del video para centrarlo y cubrir toda el área del contenedor */
-.video-container video {
-    position: absolute; /* Se posiciona sobre el contenedor */
-    top: 50%; /* Centrado vertical */
-    left: 50%; /* Centrado horizontal */
-    transform: translate(-50%, -50%); /* Centra el video en ambas direcciones */
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* El video se escala para cubrir toda el área sin distorsión */
-}
-
-/* Capa semitransparente que oscurece el video de fondo */
-.video-overlay {
-    position: absolute; /* Se coloca sobre el video */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Capa oscura translúcida para mejorar la visibilidad del texto */
-    display: flex; /* Permite centrar el contenido */
-    align-items: center; /* Centrado vertical del texto */
-    justify-content: center; /* Centrado horizontal del texto */
-}
-
-/* Estilo del título dentro de la superposición */
-.video-overlay h1 {
-    font-size: 4rem; /* Tamaño grande para destacar */
-    font-weight: bold; /* Texto en negrilla */
-    margin-top: 350px; /* Espacio superior para separar del borde */
-}
-
-/* Sección con espaciado interno para contenido adicional */
+* Sección con espaciado interno para contenido adicional */
 .section {
     padding: 60px 20px;
-}
-
-.fixed-img{
-    height: 400px;
-    width: auto;/* Imagen */
 }
 
 
